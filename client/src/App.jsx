@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="portfolio">
 
-      {/* Navigation */}
+      {/* =========================
+          Navigation
+      ========================== */}
       <nav className="navbar">
         <h2 className="logo">Ranjith</h2>
 
@@ -19,13 +21,29 @@ function App() {
       </nav>
 
 
-      {/* Hero Section */}
+      {/* =========================
+          Hero Section
+      ========================== */}
       <section id="home" className="hero-section">
+
+        {/* Profile Photo */}
+        <div className="hero-image">
+          <img
+            src="/assets/profile.jpg"
+            alt="Kanniyappa Ranjith M"
+          />
+        </div>
+
+        {/* Hero Content */}
         <div className="hero-content">
 
-          <p className="intro">Hello, I'm</p>
+          <p className="intro">
+            Hello, I'm
+          </p>
 
-          <h1>Kanniyappa Ranjith M</h1>
+          <h1>
+            Kanniyappa Ranjith M
+          </h1>
 
           <h2>
             Computer Science Engineering Student
@@ -38,19 +56,37 @@ function App() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#projects">View Projects</a>
 
-            <a href="#contact">Contact Me</a>
+            <a href="#projects">
+              View Projects
+            </a>
+
+            <a
+              href="/assets/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </a>
+
+            <a href="#contact">
+              Contact Me
+            </a>
+
           </div>
 
         </div>
       </section>
 
 
-      {/* About Section */}
+      {/* =========================
+          About Section
+      ========================== */}
       <section id="about" className="section">
 
-        <h2>About Me</h2>
+        <h2>
+          About Me
+        </h2>
 
         <p>
           I am a Computer Science Engineering student with an interest in
@@ -62,10 +98,14 @@ function App() {
       </section>
 
 
-      {/* Skills Section */}
+      {/* =========================
+          Skills Section
+      ========================== */}
       <section id="skills" className="section">
 
-        <h2>Skills</h2>
+        <h2>
+          Skills
+        </h2>
 
         <div className="skills-container">
 
@@ -85,17 +125,23 @@ function App() {
       </section>
 
 
-      {/* Projects Section */}
+      {/* =========================
+          Projects Section
+      ========================== */}
       <section id="projects" className="section">
 
-        <h2>Projects</h2>
+        <h2>
+          Projects
+        </h2>
 
         <div className="projects-container">
 
           {/* Project 1 */}
           <div className="project-card">
 
-            <h3>Demand Forecasting System</h3>
+            <h3>
+              Demand Forecasting System
+            </h3>
 
             <p>
               A machine learning based demand forecasting system designed
@@ -106,7 +152,9 @@ function App() {
               Python • Machine Learning • ARIMA • Random Forest
             </p>
 
-            <button>GitHub</button>
+            <button>
+              GitHub
+            </button>
 
           </div>
 
@@ -114,7 +162,9 @@ function App() {
           {/* Project 2 */}
           <div className="project-card">
 
-            <h3>Library Management System</h3>
+            <h3>
+              Library Management System
+            </h3>
 
             <p>
               A Java application demonstrating object-oriented programming
@@ -126,7 +176,9 @@ function App() {
               Java • OOP • SQL
             </p>
 
-            <button>GitHub</button>
+            <button>
+              GitHub
+            </button>
 
           </div>
 
@@ -134,7 +186,9 @@ function App() {
           {/* Project 3 */}
           <div className="project-card">
 
-            <h3>MERN Portfolio Website</h3>
+            <h3>
+              MERN Portfolio Website
+            </h3>
 
             <p>
               A full-stack personal portfolio website built using React,
@@ -145,7 +199,9 @@ function App() {
               React • Node.js • Express • MongoDB
             </p>
 
-            <button>GitHub</button>
+            <button>
+              GitHub
+            </button>
 
           </div>
 
@@ -154,10 +210,14 @@ function App() {
       </section>
 
 
-      {/* Education Section */}
+      {/* =========================
+          Education Section
+      ========================== */}
       <section id="education" className="section">
 
-        <h2>Education</h2>
+        <h2>
+          Education
+        </h2>
 
         <div className="education-card">
 
@@ -178,16 +238,44 @@ function App() {
       </section>
 
 
-      {/* Contact Section */}
+      {/* =========================
+          Contact Section
+      ========================== */}
       <section id="contact" className="section contact">
 
-        <h2>Contact Me</h2>
+        <h2>
+          Contact Me
+        </h2>
 
         <p>
           I'm open to opportunities, internships and interesting
           software development projects.
         </p>
 
+
+        {/* Social Links */}
+        <div className="social-links">
+
+          <a
+            href="YOUR_GITHUB_URL"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="YOUR_LINKEDIN_URL"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+
+        {/* Contact Form */}
         <form>
 
           <input
@@ -213,7 +301,9 @@ function App() {
       </section>
 
 
-      {/* Footer */}
+      {/* =========================
+          Footer
+      ========================== */}
       <footer>
 
         <p>
