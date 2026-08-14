@@ -417,3 +417,23 @@ footer {
     width: fit-content;
   }
 }
+
+.project-button {
+  display: inline-block;
+
+  padding: 9px 18px;
+
+  border-radius: 6px;
+
+  background: #38bdf8;
+  color: #0f172a;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.project-button:hover {
+  background: #7dd3fc;
+  transform: translateY(-2px);
+}

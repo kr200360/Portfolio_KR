@@ -4,9 +4,7 @@ function App() {
   return (
     <div className="portfolio">
 
-      {/* =========================
-          Navigation
-      ========================== */}
+      {/* Navigation */}
       <nav className="navbar">
         <h2 className="logo">Ranjith</h2>
 
@@ -21,12 +19,9 @@ function App() {
       </nav>
 
 
-      {/* =========================
-          Hero Section
-      ========================== */}
+      {/* Hero Section */}
       <section id="home" className="hero-section">
 
-        {/* Profile Photo */}
         <div className="hero-image">
           <img
             src="/assets/profile.jpg"
@@ -34,7 +29,6 @@ function App() {
           />
         </div>
 
-        {/* Hero Content */}
         <div className="hero-content">
 
           <p className="intro">
@@ -76,12 +70,11 @@ function App() {
           </div>
 
         </div>
+
       </section>
 
 
-      {/* =========================
-          About Section
-      ========================== */}
+      {/* About Section */}
       <section id="about" className="section">
 
         <h2>
@@ -98,9 +91,7 @@ function App() {
       </section>
 
 
-      {/* =========================
-          Skills Section
-      ========================== */}
+      {/* Skills Section */}
       <section id="skills" className="section">
 
         <h2>
@@ -125,9 +116,7 @@ function App() {
       </section>
 
 
-      {/* =========================
-          Projects Section
-      ========================== */}
+      {/* Projects Section */}
       <section id="projects" className="section">
 
         <h2>
@@ -152,9 +141,12 @@ function App() {
               Python • Machine Learning • ARIMA • Random Forest
             </p>
 
-            <button>
+            <a
+              href="#"
+              className="project-button"
+            >
               GitHub
-            </button>
+            </a>
 
           </div>
 
@@ -176,9 +168,12 @@ function App() {
               Java • OOP • SQL
             </p>
 
-            <button>
+            <a
+              href="#"
+              className="project-button"
+            >
               GitHub
-            </button>
+            </a>
 
           </div>
 
@@ -199,9 +194,12 @@ function App() {
               React • Node.js • Express • MongoDB
             </p>
 
-            <button>
+            <a
+              href="#"
+              className="project-button"
+            >
               GitHub
-            </button>
+            </a>
 
           </div>
 
@@ -210,9 +208,7 @@ function App() {
       </section>
 
 
-      {/* =========================
-          Education Section
-      ========================== */}
+      {/* Education Section */}
       <section id="education" className="section">
 
         <h2>
@@ -238,9 +234,7 @@ function App() {
       </section>
 
 
-      {/* =========================
-          Contact Section
-      ========================== */}
+      {/* Contact Section */}
       <section id="contact" className="section contact">
 
         <h2>
@@ -252,12 +246,11 @@ function App() {
           software development projects.
         </p>
 
-
         {/* Social Links */}
         <div className="social-links">
 
           <a
-            href="YOUR_GITHUB_URL"
+            href="https://github.com/kr200360"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -265,7 +258,7 @@ function App() {
           </a>
 
           <a
-            href="YOUR_LINKEDIN_URL"
+            href="https://www.linkedin.com/in/kanniyappa-ranjith-m-1937bb287/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -273,7 +266,6 @@ function App() {
           </a>
 
         </div>
-
 
         {/* Contact Form */}
         <form>
@@ -301,9 +293,7 @@ function App() {
       </section>
 
 
-      {/* =========================
-          Footer
-      ========================== */}
+      {/* Footer */}
       <footer>
 
         <p>
