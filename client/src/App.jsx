@@ -176,20 +176,30 @@ const PORTFOLIO_DATA = {
       specialization: "Specialization in Artificial Intelligence & Machine Learning",
       institution: "PES University",
       location: "Bengaluru, Karnataka",
-      period: "2022 — Present",
+      period: "2023 — 2027 (Expected)",
       status: "In Progress",
-      description: "Comprehensive coursework in advanced algorithms, artificial intelligence, software engineering principles, database architecture, and computer systems.",
-      highlights: ["Data Structures & Algorithms", "Operating Systems", "DBMS", "Machine Learning", "Computer Networks", "Software Engineering"]
+      description: "Pursuing specialized computer science engineering with a focus on artificial intelligence, machine learning algorithms, full-stack web development, and database architecture.",
+      highlights: ["Data Structures & Algorithms", "Machine Learning", "DBMS", "Operating Systems", "Computer Networks", "Software Engineering"]
     },
     {
-      degree: "Pre-University College (Science - PCMC)",
+      degree: "Pre-University College (PCMC)",
       specialization: "Physics, Chemistry, Mathematics, Computer Science",
-      institution: "Pre-University Education",
+      institution: "St. Joseph's Pre-University College",
       location: "Bengaluru, Karnataka",
-      period: "Completed",
+      period: "2021 — 2023",
+      status: "Completed",
+      description: "Completed higher secondary education with strong analytical foundations in science, advanced mathematics, and foundational computer science programming.",
+      highlights: ["Computer Science", "Mathematics", "Physics", "Chemistry"]
+    },
+    {
+      degree: "Secondary School Education (10th Standard)",
+      specialization: "General Science & Mathematics",
+      institution: "MMET English High School",
+      location: "Bangalore, Karnataka",
+      period: "Passed out 2021",
       status: "Graduated",
-      description: "Built strong foundations in mathematics, analytical problem solving, and introductory programming in computer science.",
-      highlights: ["Mathematics", "Computer Science", "Physics", "Chemistry"]
+      description: "Foundational schooling with focus on academic excellence, core science, mathematics, and analytical reasoning.",
+      highlights: ["Mathematics", "Science", "English", "Academic Excellence"]
     }
   ],
 
