@@ -417,13 +417,45 @@ function App() {
 
       {/* Mobile Drawer */}
       <div className={`mobile-nav-drawer ${mobileMenuOpen ? 'open' : ''}`}>
-        <a href="#home" onClick={() => setMobileMenuOpen(false)}>Home</a>
-        <a href="#about" onClick={() => setMobileMenuOpen(false)}>About</a>
-        <a href="#skills" onClick={() => setMobileMenuOpen(false)}>Skills</a>
-        <a href="#projects" onClick={() => setMobileMenuOpen(false)}>Projects</a>
-        <a href="#education" onClick={() => setMobileMenuOpen(false)}>Education</a>
-        <a href="#certifications" onClick={() => setMobileMenuOpen(false)}>Certifications</a>
-        <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a>
+        <a href="#home" className={`mobile-nav-link ${activeSection === 'home' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>
+          <span>Home</span>
+          <ArrowUpRight size={16} />
+        </a>
+        <a href="#about" className={`mobile-nav-link ${activeSection === 'about' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>
+          <span>About</span>
+          <ArrowUpRight size={16} />
+        </a>
+        <a href="#skills" className={`mobile-nav-link ${activeSection === 'skills' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>
+          <span>Skills</span>
+          <ArrowUpRight size={16} />
+        </a>
+        <a href="#projects" className={`mobile-nav-link ${activeSection === 'projects' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>
+          <span>Projects</span>
+          <ArrowUpRight size={16} />
+        </a>
+        <a href="#education" className={`mobile-nav-link ${activeSection === 'education' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>
+          <span>Education</span>
+          <ArrowUpRight size={16} />
+        </a>
+        <a href="#certifications" className={`mobile-nav-link ${activeSection === 'certifications' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>
+          <span>Certifications</span>
+          <ArrowUpRight size={16} />
+        </a>
+        <a href="#contact" className={`mobile-nav-link ${activeSection === 'contact' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>
+          <span>Contact</span>
+          <ArrowUpRight size={16} />
+        </a>
+
+        <a
+          href={PORTFOLIO_DATA.resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mobile-drawer-cta"
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          <Download size={18} />
+          <span>Download Resume</span>
+        </a>
       </div>
 
 
